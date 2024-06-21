@@ -5,13 +5,13 @@ import { Task } from "./Task.jsx";
 //create your first component
 const Home = () => {
 	return (
-		<div className="">
+		<main>
 			<TaskForm />
 			<Task />
 			<Task />
 			<Task />
 			<Task />
-		</div>
+		</main>
 	);
 };
 
