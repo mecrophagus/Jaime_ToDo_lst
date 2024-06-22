@@ -1,18 +1,13 @@
 import React from "react";
-import { TaskForm } from "./TaskForm.jsx"
-import { Task } from "./Task.jsx";
+import { Task } from "./TaskForm.jsx";
 
 //create your first component
 const Home = () => {
 	return (
-		<main>
-			<TaskForm />
+		<div className="App">
 			<Task />
-			<Task />
-			<Task />
-			<Task />
-		</main>
+		</div>
 	);
-};
+}; 
 
 export default Home;
